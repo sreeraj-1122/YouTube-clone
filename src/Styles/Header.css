@@ -1,0 +1,121 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    position: sticky;
+    top: 0;
+    background-color:#0f0f0f;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: .2s ease-in;
+
+}
+
+.header-logo {
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+    width: 49%;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border: 1px solid hsla(0,0%,53.3%,0.4);
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.SearchInput {
+    border-radius: 50px;
+    height: 25px !important;
+    border: none;
+    flex: 1;
+    width: 49%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: hsl(0,0%,7%);
+    color: hsla(0,100%,100%,0.88);
+
+}
+
+.header-searchbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0,0%,18.82%);
+    color: rgb(248, 246, 246);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 60px;
+    font-size: 20px;
+    padding: 8px 6px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.headerMic-icon{
+    cursor: pointer;
+    color: white;
+    background-color: #333232;
+    padding: 9px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: .2s ease-in;
+
+}
+.headerMic-icon:hover{
+    background-color: #4e4c4c ;
+}
+.header-icons{
+    cursor: pointer;
+    color: white;
+    padding: 9px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: .2s ease-in;
+}
+.header-icons:hover{
+    background-color: #444040 ;
+    
+}
+.header-profile {
+    font-size: medium;
+    background: #036161;
+    color: #fff;
+    font-weight: 500;
+    width: 38px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
