@@ -1,30 +1,56 @@
-.subscription-row{
+.subscription-row {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 20px;
-    height: 35px;
+    justify-content: space-between;
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 210px;
+    margin-bottom: 3px;
+
 }
-.subscription-left{
+
+.subscription-row:hover {
+    background-color: #2f2d2d;
+    border-radius: 10px;
+
+}
+
+.subscription-left {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.channel-logo{
+.subscription-left a{
+    text-decoration: none;
+}
+
+
+.channel-logo {
     height: 24px;
     width: 24px;
     border-radius: 12px;
     object-fit: contain;
-    margin-right: 15px;
+
 }
-.live-img{
+
+.subscription-right {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.live-img {
     width: 18px;
     height: 18px;
 
 }
-.channel-name{
+
+.channel-name {
     font-size: 15px;
     font-weight: 400;
-    margin-left: 8px;
+    margin-left: 20px;
     color: #fff;
 }
