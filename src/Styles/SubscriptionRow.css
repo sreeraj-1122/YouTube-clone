@@ -1,0 +1,30 @@
+.subscription-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    height: 35px;
+}
+.subscription-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.channel-logo{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+.live-img{
+    width: 18px;
+    height: 18px;
+
+}
+.channel-name{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8px;
+    color: #fff;
+}

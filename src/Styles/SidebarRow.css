@@ -1,0 +1,24 @@
+.sidebar-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 170px;
+    padding: 9px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.sidebar-icon{
+    font-size: 22px;
+}
+.sidebar-title{
+    flex: 1;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.sidebar-row:hover{
+    background-color: #2f2d2d;
+    cursor: pointer;
+
+}
