@@ -40,6 +40,7 @@ import premium from "../Images/premium.png";
 import studio from "../Images/studio.png";
 import music from "../Images/music.png";
 import kids from "../Images/kids.png";
+import Home from "@mui/icons-material/Home";
 function Header(props) {
   return (
     <div className="parent-header">
@@ -131,6 +132,7 @@ function Header(props) {
         </div>
 
       </div>
+      
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.tags{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 80px;  
+    color: #fff;
+    width: 100%;
+    
+    
+}
+.tag-name{
+    margin-right: 10px;
+    background-color: #2f2d2d;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.tag-name:hover{
+    background-color: #3d3b3b;
+    cursor: pointer;
+}
+.tag-arrrow{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px ;
+    border-radius: 50px;
+    background-color: #2f2d2d;
+}
+.tag-arrrow:hover{
+    border-radius: 50px;
+    background-color: #3d3b3b;
+    
+}

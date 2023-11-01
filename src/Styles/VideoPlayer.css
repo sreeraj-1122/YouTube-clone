@@ -1,0 +1,42 @@
+.yt-videos{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 270px;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.video-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+.video-img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.video-body{
+    padding-top: 10px;
+    display: flex;
+}
+.video-icon img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 0;
+}
+.video-icon{
+    margin-right: 10px;
+}
+.video-texts{
+    width: 100%;
+}
+.video-title{
+    font-size: 15px;
+    margin-bottom: 2px; 
+}

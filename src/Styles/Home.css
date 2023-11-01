@@ -1,0 +1,29 @@
+.home{
+    width: 80%;
+    margin-left: 19%;
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    z-index: 50;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.home::-webkit-scrollbar{
+    width: 8px !important;
+    border-radius: 50% !important;
+}
+.home::-webkit-scrollbar-track{
+    background-color:#0f0f0f !important;
+    
+}
+.home::-webkit-scrollbar-thumb{
+    background-color: #0f0f0f !important;
+}
+.home:hover::-webkit-scrollbar-thumb{
+    background-color: gray !important;
+    
+}
+.yt-video-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
